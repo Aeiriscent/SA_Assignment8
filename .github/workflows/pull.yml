@@ -61,7 +61,7 @@ jobs:
       run: echo LINTING
 
   test:
-    needs: build
+    needs: [build, lint]
     runs-on: windows-latest
 
     steps:
