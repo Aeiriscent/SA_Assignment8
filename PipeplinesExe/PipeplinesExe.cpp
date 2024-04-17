@@ -6,7 +6,7 @@
 
 int main()
 {
-    std::cout << "Hello World!\n" // induce compiler error
+    std::cout << "Hello World!\n";
     CoolClass coolClass;
     std::cout << "Calc " << coolClass.Calc(1, 2);
 }
